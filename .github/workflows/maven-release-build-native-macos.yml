@@ -29,6 +29,6 @@ jobs:
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./target/demo-${{ github.event.release.tag_name }}-runner
-          asset_name: demo-${{ github.event.release.tag_name }}-macos
+          asset_name: demo-maven-${{ github.event.release.tag_name }}-macos
           asset_label: macos
           asset_content_type: application/octet-stream
