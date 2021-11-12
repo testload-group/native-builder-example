@@ -1,4 +1,4 @@
-name: release-build-native-win64
+name: gradle-release-build-native-win64
 
 on:
   release:

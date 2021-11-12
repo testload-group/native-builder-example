@@ -1,4 +1,4 @@
-name: release-build
+name: gradle-release-build-jar-and-linux
 
 on:
   release:
